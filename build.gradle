@@ -1,19 +1,18 @@
 allprojects {
-	repositories {
-		jcenter()
-		mavenCentral()
-		google()
-	}
+    repositories {
+        mavenCentral()
+        google()
+    }
 }
 
 buildscript {
-	repositories {
-		jcenter()
+    repositories {
         mavenCentral()
-		google()
-	}
+        google()
+    }
 
-	dependencies {
-		classpath 'com.android.tools.build:gradle:7.0.3'
-	}
+    dependencies {
+        classpath 'com.android.tools.build:gradle:7.0.4'
+        classpath 'com.vanniktech:gradle-maven-publish-plugin:0.18.0'
+    }
 }
