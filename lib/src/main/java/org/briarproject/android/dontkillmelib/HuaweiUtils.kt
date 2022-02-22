@@ -9,9 +9,9 @@ public object HuaweiUtils {
 
     private const val PACKAGE_NAME_HUAWEI = "com.huawei.systemmanager"
     private const val CLASS_NAME_POWER_MANAGER =
-        "${PACKAGE_NAME_HUAWEI}.power.ui.HwPowerManagerActivity"
+        "$PACKAGE_NAME_HUAWEI.power.ui.HwPowerManagerActivity"
     private const val CLASS_NAME_PROTECTED_APPS =
-        "${PACKAGE_NAME_HUAWEI}.optimize.process.ProtectActivity"
+        "$PACKAGE_NAME_HUAWEI.optimize.process.ProtectActivity"
 
     /**
      * Determine whether a Huawei "Protected apps" feature is available on the
