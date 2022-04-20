@@ -8,6 +8,8 @@ import android.os.Build.VERSION.SDK_INT
 public object HuaweiUtils {
 
     private const val PACKAGE_NAME_HUAWEI = "com.huawei.systemmanager"
+    private const val CLASS_NAME_APP_LIST =
+        "$PACKAGE_NAME_HUAWEI.startupmgr.ui.StartupNormalAppListActivity"
     private const val CLASS_NAME_POWER_MANAGER =
         "$PACKAGE_NAME_HUAWEI.power.ui.HwPowerManagerActivity"
     private const val CLASS_NAME_PROTECTED_APPS =
@@ -22,8 +24,10 @@ public object HuaweiUtils {
         // "App launch" was introduced in EMUI 8 (Android 8.0)
         if (SDK_INT < 26) return false
         val pm = context.packageManager
-        val resolveInfos = pm.queryIntentActivities(huaweiProtectedAppsIntent, MATCH_DEFAULT_ONLY)
-        return resolveInfos.isNotEmpty()
+        for (i in huaweiAppLaunchIntents) {
+            if (pm.queryIntentActivities(i, MATCH_DEFAULT_ONLY).isNotEmpty()) return true
+        }
+        return false
     }
 
     /**
@@ -40,9 +44,25 @@ public object HuaweiUtils {
     }
 
     @JvmStatic
+    public val huaweiAppListIntent: Intent = Intent().apply {
+        setClassName(PACKAGE_NAME_HUAWEI, CLASS_NAME_APP_LIST)
+    }
+
+    @JvmStatic
     public val huaweiPowerManagerIntent: Intent = Intent().apply {
         setClassName(PACKAGE_NAME_HUAWEI, CLASS_NAME_POWER_MANAGER)
     }
+
+    /**
+     * First tries [huaweiAppListIntent] and then falls back to [huaweiPowerManagerIntent].
+     */
+    @JvmStatic
+    public val huaweiAppLaunchIntents: List<Intent> = listOf(
+        // First try to open StartupNormalAppListActivity
+        huaweiAppListIntent,
+        // Fall back to HwPowerManagerActivity
+        huaweiPowerManagerIntent,
+    )
 
     @JvmStatic
     public val huaweiProtectedAppsIntent: Intent = Intent().apply {
