@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">اتصال های پس زمینه</string>
+    <string name="dnkm_doze_button">دادن اجازه به ارتباطات</string>
+
+    <string name="dnkm_huawei_app_launch_button">باز کردن تنظیمات باتری</string>
+    <string name="dnkm_huawei_app_launch_error_toast">تنظیمات باتری باز نشد</string>
+
+    <string name="dnkm_got_it">متوجه شدم</string>
+    <string name="dnkm_help">راهنما</string>
+
+    <string name="dnkm_warning_dozed">ناتوانی %s برای اجراء در پس زمینه</string>
+</resources>

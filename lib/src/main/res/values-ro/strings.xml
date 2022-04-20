@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Conexiuni în fundal</string>
+    <string name="dnkm_doze_button">Permite conexiuni</string>
+
+    <string name="dnkm_huawei_app_launch_button">Deschide setările de baterie</string>
+    <string name="dnkm_huawei_app_launch_error_toast">Nu se pot deschide setările de baterie.</string>
+
+    <string name="dnkm_got_it">Am înțeles</string>
+    <string name="dnkm_help">Ajutor</string>
+
+    <string name="dnkm_warning_dozed">%s nu poate rula în fundal</string>
+</resources>

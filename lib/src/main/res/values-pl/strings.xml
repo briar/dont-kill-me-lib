@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Połączenia w tle</string>
+    <string name="dnkm_doze_button">Pozwól na Połączenia</string>
+
+    <string name="dnkm_huawei_app_launch_button">Otwórz Ustawienia Baterii</string>
+    <string name="dnkm_huawei_app_launch_error_toast">Nie można otworzyć ustawień baterii</string>
+
+    <string name="dnkm_got_it">Rozumiem</string>
+    <string name="dnkm_help">Pomoc</string>
+
+    <string name="dnkm_warning_dozed">%s nie był wstanie działać w tle</string>
+</resources>

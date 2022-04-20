@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Arka plan Bağlantıları</string>
+    <string name="dnkm_doze_button">Bağlantılara İzin Ver</string>
+
+    <string name="dnkm_huawei_app_launch_button">Pil Ayarlarını Aç</string>
+    <string name="dnkm_got_it">Anladım</string>
+    <string name="dnkm_help">Yardım</string>
+
+    <string name="dnkm_warning_dozed">%s arka planda çalışamadı</string>
+</resources>

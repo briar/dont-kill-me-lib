@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Pripojenia bežiace v pozadí</string>
+    <string name="dnkm_doze_button">Povoliť pripojenia</string>
+
+    <string name="dnkm_huawei_app_launch_button">Otvoriť nastavenia batérie</string>
+    <string name="dnkm_got_it">Rozumiem</string>
+    <string name="dnkm_help">Pomoc</string>
+
+    <string name="dnkm_warning_dozed">Aplikáciu %s nebolo možné spustiť na pozadí</string>
+</resources>

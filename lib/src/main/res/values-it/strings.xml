@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Connessioni in background</string>
+    <string name="dnkm_doze_button">Permetti le connessioni</string>
+
+    <string name="dnkm_huawei_app_launch_button">Apri impostazioni batteria</string>
+    <string name="dnkm_got_it">Ho capito</string>
+    <string name="dnkm_help">Aiuto</string>
+
+    <string name="dnkm_warning_dozed">%s non ha potuto funzionare in background</string>
+</resources>

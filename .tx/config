@@ -1,0 +1,10 @@
+[main]
+host     = https://www.transifex.com
+lang_map = pl_PL: pl-rPL, pt_BR: pt-rBR, pt_PT: pt-rPT, nb_NO: nb, zh-Hans: zh-rCN, zh-Hant: zh-rTW
+
+[o:otf:p:briar:r:do-not-kill-me-lib]
+file_filter  = lib/src/main/res/values-<lang>/strings.xml
+source_file  = lib/src/main/res/values/strings.xml
+source_lang  = en
+type         = ANDROID
+minimum_perc = 80

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Dataanslutningar i bakgrunden</string>
+    <string name="dnkm_doze_button">Tillåt dataanslutningar</string>
+
+    <string name="dnkm_huawei_app_launch_button">Öppna batteriinställningar</string>
+    <string name="dnkm_got_it">Förstått</string>
+    <string name="dnkm_help">Hjälp</string>
+
+    <string name="dnkm_warning_dozed">%s kunde inte köras i bakgrunden</string>
+</resources>

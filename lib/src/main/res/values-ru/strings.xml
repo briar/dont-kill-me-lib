@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Фоновые подключения</string>
+    <string name="dnkm_doze_button">Разрешить подключения</string>
+
+    <string name="dnkm_huawei_app_launch_button">Открыть настройки батареи</string>
+    <string name="dnkm_huawei_app_launch_error_toast">Не удалось открыть настройки батареи</string>
+
+    <string name="dnkm_got_it">ОК</string>
+    <string name="dnkm_help">Помощь</string>
+
+    <string name="dnkm_warning_dozed">%s не удалось выполнить в фоновом режиме</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Atzeko planoko konexioak</string>
+    <string name="dnkm_doze_button">Baimendu konexioak</string>
+
+    <string name="dnkm_got_it">Ulertu dut</string>
+    <string name="dnkm_help">Laguntza</string>
+
+    <string name="dnkm_warning_dozed">%s ezin izan da bigarren planoan exekutatu</string>
+</resources>

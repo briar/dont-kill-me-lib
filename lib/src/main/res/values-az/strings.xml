@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Fon qoşulmaları</string>
+    <string name="dnkm_doze_button">Qoşulmalara izn ver</string>
+
+    <string name="dnkm_got_it">Anladım</string>
+    <string name="dnkm_help">Kömək</string>
+
+    <string name="dnkm_warning_dozed">%sarxa planda işə düşmədi</string>
+</resources>

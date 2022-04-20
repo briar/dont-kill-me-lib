@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">后台连接</string>
+    <string name="dnkm_doze_button">允许连接</string>
+
+    <string name="dnkm_huawei_app_launch_button">打开电池设置</string>
+    <string name="dnkm_huawei_app_launch_error_toast">无法打开电池设置</string>
+
+    <string name="dnkm_got_it">知道了</string>
+    <string name="dnkm_help">帮助</string>
+
+    <string name="dnkm_warning_dozed">%s 无法在后台运行</string>
+</resources>

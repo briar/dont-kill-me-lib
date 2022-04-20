@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Conexións en segundo plano</string>
+    <string name="dnkm_doze_button">Permitir conexións</string>
+
+    <string name="dnkm_got_it">Comprendido</string>
+    <string name="dnkm_help">Axuda</string>
+
+    <string name="dnkm_warning_dozed">%s non foi quen de funcionar en segundo plano</string>
+</resources>

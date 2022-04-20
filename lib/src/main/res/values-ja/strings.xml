@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">バックグラウンド接続</string>
+    <string name="dnkm_doze_button">接続を許可</string>
+
+    <string name="dnkm_huawei_app_launch_button">バッテリー設定を開く</string>
+    <string name="dnkm_got_it">了解</string>
+    <string name="dnkm_help">ヘルプ</string>
+
+    <string name="dnkm_warning_dozed">%sはバックグラウンドで実行することができませんでした</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Bakgrunnstilkoblinger</string>
+    <string name="dnkm_doze_button">Tillat tilkoblinger</string>
+
+    <string name="dnkm_got_it">Skjønner</string>
+    <string name="dnkm_help">Hjelp</string>
+
+    <string name="dnkm_warning_dozed">%s klarte ikke å kjøre i bakgrunnen</string>
+</resources>

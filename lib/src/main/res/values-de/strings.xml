@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Hintergrundverbindungen</string>
+    <string name="dnkm_doze_button">Erlaube Verbindungen</string>
+
+    <string name="dnkm_huawei_app_launch_button">Akkueinstellungen öffnen</string>
+    <string name="dnkm_huawei_app_launch_error_toast">Akkueinstellungen konnten nicht geöffnet werden</string>
+
+    <string name="dnkm_got_it">Verstanden</string>
+    <string name="dnkm_help">Hilfe</string>
+
+    <string name="dnkm_warning_dozed">%s konnte nicht im Hintergrund ausgeführt werden</string>
+</resources>

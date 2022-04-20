@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Lidhje Në Prapaskenë</string>
+    <string name="dnkm_doze_button">Lejo Lidhje</string>
+
+    <string name="dnkm_huawei_app_launch_button">Hapni Rregullime Baterie</string>
+    <string name="dnkm_huawei_app_launch_error_toast">S’u hapën dot rregullimet e baterisë</string>
+
+    <string name="dnkm_got_it">E mora vesh</string>
+    <string name="dnkm_help">Ndihmë</string>
+
+    <string name="dnkm_warning_dozed">%s s\’qe në gjendje të xhirojë në prapaskenë</string>
+</resources>

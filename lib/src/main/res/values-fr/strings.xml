@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Connexions d’arrière-plan</string>
+    <string name="dnkm_doze_button">Autoriser les connexions</string>
+
+    <string name="dnkm_huawei_app_launch_button">Ouvrez les paramètres de la pile</string>
+    <string name="dnkm_huawei_app_launch_error_toast">Impossible d’ouvrir les paramètres de la pile</string>
+
+    <string name="dnkm_got_it">D’accord</string>
+    <string name="dnkm_help">Aide</string>
+
+    <string name="dnkm_warning_dozed">%s n’a pas pu fonctionner en arrière-plan</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">חיבורי רקע</string>
+    <string name="dnkm_doze_button">התר חיבורים</string>
+
+    <string name="dnkm_got_it">הבנתי</string>
+    <string name="dnkm_help">עזרה</string>
+
+    <string name="dnkm_warning_dozed">%s לא היה יכול לרוץ ברקע</string>
+</resources>

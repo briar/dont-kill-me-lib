@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Conexiones de segundo plano</string>
+    <string name="dnkm_doze_button">Permitir conexiones</string>
+
+    <string name="dnkm_huawei_app_launch_button">Abrir Ajustes de Batería</string>
+    <string name="dnkm_huawei_app_launch_error_toast">No se pudieron abrir las configuraciones para la batería</string>
+
+    <string name="dnkm_got_it">Entendido</string>
+    <string name="dnkm_help">Ayuda</string>
+
+    <string name="dnkm_warning_dozed">%s no pudo ejecutarse en segundo plano</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="dnkm_doze_title">Připojení na pozadí</string>
+    <string name="dnkm_doze_button">Povolit připojení</string>
+
+    <string name="dnkm_got_it">Chápu</string>
+    <string name="dnkm_help">Pomoc</string>
+
+    <string name="dnkm_warning_dozed">%s nebylo možné spustit na pozadí</string>
+</resources>
