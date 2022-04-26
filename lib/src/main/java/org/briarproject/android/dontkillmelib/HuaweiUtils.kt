@@ -39,7 +39,7 @@ public object HuaweiUtils {
         // "Protected apps" no longer exists on Huawei EMUI 5.0 (Android 7.0)
         if (SDK_INT >= 24) return false
         val pm = context.packageManager
-        val resolveInfos = pm.queryIntentActivities(huaweiPowerManagerIntent, MATCH_DEFAULT_ONLY)
+        val resolveInfos = pm.queryIntentActivities(huaweiProtectedAppsIntent, MATCH_DEFAULT_ONLY)
         return resolveInfos.isNotEmpty()
     }
 
