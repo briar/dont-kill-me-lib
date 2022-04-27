@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="dnkm_doze_title">Фоновые подключения</string>
+    <string name="dnkm_doze_intro">Для корректной работы это приложение должно быть запущено в фоновом режиме.</string>
+    <string name="dnkm_doze_explanation">Пожалуйста, отключите оптимизацию батареи, чтобы это приложение могло работать в фоновом режиме.</string>
     <string name="dnkm_doze_button">Разрешить подключения</string>
 
+    <string name="dnkm_huawei_protected_text">Нажмите кнопку ниже и убедитесь, что это приложение защищено на экране \'Защищенные приложения\'.</string>
+    <string name="dnkm_huawei_protected_button">Защитить это приложение</string>
+    <string name="dnkm_huawei_protected_help">Если это приложение не добавлено в список защищенных, оно не сможет работать в фоновом режиме.</string>
+
+    <string name="dnkm_huawei_app_launch_text">Нажмите кнопку ниже, откройте экран \'Запуск приложения\' и убедитесь, что для этого приложения установлено значение \'Управлять вручную\'.</string>
     <string name="dnkm_huawei_app_launch_button">Открыть настройки батареи</string>
+    <string name="dnkm_huawei_app_launch_help">Если для этого приложения не установлено значение \'Управлять вручную\' на экране \'Запуск приложений\', оно не сможет работать в фоновом режиме.</string>
     <string name="dnkm_huawei_app_launch_error_toast">Не удалось открыть настройки батареи</string>
+
+    <string name="dnkm_xiaomi_text">Для работы в фоновом режиме это приложение должно быть закреплено в списке недавних приложений.</string>
+    <string name="dnkm_xiaomi_button">Закрепить недавние приложения</string>
+    <string name="dnkm_xiaomi_help">Если это приложение не закреплено в списке недавних приложений, оно не сможет работать в фоновом режиме.</string>
+    <string name="dnkm_xiaomi_dialog_body_old">1. Откройте список недавних приложений (также именуемый переключателем приложений)\n\n2. Проведите пальцем вниз по изображению этого приложения, чтобы появился значок замка\n\n3. Если замок не заблокирован, коснитесь его, чтобы заблокировать.</string>
+    <string name="dnkm_xiaomi_dialog_body_new">1. Откройте список недавних приложений (также именуемый переключателем приложений)\n\n2. Нажмите и удерживайте изображение этого приложения, пока не появится кнопка с замком\n\n3. Если замок не заблокирован, коснитесь его, чтобы заблокировать.</string>
 
     <string name="dnkm_got_it">ОК</string>
     <string name="dnkm_help">Помощь</string>
 
-    <string name="dnkm_warning_dozed">%s не удалось выполнить в фоновом режиме</string>
+    <string name="dnkm_warning_dozed">%s не удалось запустить в фоновом режиме</string>
 </resources>

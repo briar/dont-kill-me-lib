@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="dnkm_doze_title">Фонові з\'єднання</string>
+    <string name="dnkm_doze_intro">Для коректної роботи застосунку потрібен дозвіл на фоновий режим.</string>
+    <string name="dnkm_doze_explanation">Щоб застосунок міг працювати в фоновому режимі, вимкніть оптимізацію батареї.</string>
     <string name="dnkm_doze_button">Дозволити з\'єднання</string>
 
+    <string name="dnkm_huawei_protected_text">Торкніть кнопку внизу й переконайтесь, що застосунок є в переліку «захищених застосунків».</string>
+    <string name="dnkm_huawei_protected_button">Захистити застосунок</string>
+    <string name="dnkm_huawei_protected_help">Якщо цього застосунку нема в переліку захищених застосунків, він не зможе працювати в фоновому режимі.</string>
+
+    <string name="dnkm_huawei_app_launch_text">Торкніть кнопку внизу, відкрийте екран «Запуск застосунку» та оберіть для цього застосунку «Керувати вручну».</string>
     <string name="dnkm_huawei_app_launch_button">Відкрити налаштування батареї</string>
+    <string name="dnkm_huawei_app_launch_help">Якщо для застосунку не обрано «Керувати вручну» на екрані «Запуск застосунку», він не зможе працювати в фоновому режимі.</string>
     <string name="dnkm_huawei_app_launch_error_toast">Не вдалося відкрити параметри батареї</string>
+
+    <string name="dnkm_xiaomi_text">Щоб застосунок працював у фоновому режимі, закріпіть його в переліку нещодавніх застосунків.</string>
+    <string name="dnkm_xiaomi_button">Закріпити в нещодавніх</string>
+    <string name="dnkm_xiaomi_help">Якщо застосунок не закріплено в переліку нещодавніх застосунків, він не зможе працювати в фоновому режимі.</string>
+    <string name="dnkm_xiaomi_dialog_body_old">1. Відкрийте перелік нещодавніх застосунків (також називається перемикачем додатків)\n\n2. Потягніть зображення застосунку донизу до появи знака замка\n\n3. Якщо замок розімкнено, замкніть його дотиком</string>
+    <string name="dnkm_xiaomi_dialog_body_new">1. Відкрийте перелік нещодавніх застосунків (також називається перемикачем додатків)\n\n2. Затисніть зображення застосунку донизу до появи знака замка\n\n3. Якщо замок розімкнено, замкніть його дотиком</string>
 
     <string name="dnkm_got_it">Зрозуміло</string>
     <string name="dnkm_help">Довідка</string>

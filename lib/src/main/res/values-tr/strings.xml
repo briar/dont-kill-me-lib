@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
     <string name="dnkm_doze_title">Arka plan Bağlantıları</string>
+    <string name="dnkm_doze_intro">Bu programın düzgün çalışması için arka planda olması gerekiyor.</string>
+    <string name="dnkm_doze_explanation">Lütfen batarya iyileştirmelerini devre dışı bırakın, böylece bu uygulama arka planda çalışabilir.</string>
     <string name="dnkm_doze_button">Bağlantılara İzin Ver</string>
 
+    <string name="dnkm_huawei_protected_text">Lütfen aşağıdaki düğmeye dokunun ve bu uygulamanın \"Korunan Uygulamalar\" ekranında korunduğundan emin olun.</string>
+    <string name="dnkm_huawei_protected_button">Bu uygulamayı koru</string>
+    <string name="dnkm_huawei_protected_help">Eğer bu uygulama korunan uygulamalar listesine eklenmezse, arka planda çalışmayabilir.</string>
+
+    <string name="dnkm_huawei_app_launch_text">Lütfen aşağıdaki düğmeye dokunun, \"Uygulama başlatma\" ekranını açın ve bu uygulama için \"Manuel olarak yönet\" şeklinde ayarlanmış olduğundan emin olun.</string>
     <string name="dnkm_huawei_app_launch_button">Pil Ayarlarını Aç</string>
+    <string name="dnkm_huawei_app_launch_help">Eğer bu uygulama, \"Uygulama Başlatma\" ekranında \"Manuel olarak yönet\" olarak ayarlanmamışsa, arka planda çalışmayabilir.</string>
+    <string name="dnkm_huawei_app_launch_error_toast">Batarya ayarları açılamıyor</string>
+
+    <string name="dnkm_xiaomi_text">Bu uygulamanın arka planda çalışması için son uygulamalar listesinde sabitlenmesi gerekiyor.</string>
+    <string name="dnkm_xiaomi_button">Son uygulamalarda sabitle</string>
+    <string name="dnkm_xiaomi_help">Eğer bu uygulama son uygulamalar listesinde sabitlenmesi, arka planda çalışmayabilir.</string>
+    <string name="dnkm_xiaomi_dialog_body_old">1. Geçmiş uygulamalar listesini açın (uygulama değiştirici de deniyor)\n\n2. Bu uygulamanın resmini kilit simgesini görene kadar aşağı kaydırın\n\n3. Eğer kilit simgesi seçili değilse, kilitlemek için dokunun</string>
+    <string name="dnkm_xiaomi_dialog_body_new">1. Geçmiş uygulamalar listesini açın (uygulama değiştirici de deniyor)\n\n2. Kilit simgesini görene kadar bu uygulamanın resmine tıklayın ve tutun\n\n3. Eğer kilit simgesi seçili değilse, kilitlemek için dokunun</string>
+
     <string name="dnkm_got_it">Anladım</string>
     <string name="dnkm_help">Yardım</string>
 
