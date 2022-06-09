@@ -6,8 +6,9 @@ public class DozeHelperImpl : DozeHelper {
     override fun needToShowDoNotKillMeFragment(context: Context): Boolean {
         val appContext = context.applicationContext
         return DozeUtils.needsDozeWhitelisting(appContext) ||
-            HuaweiUtils.protectedAppsNeedsToBeShown(appContext) ||
-            HuaweiUtils.appLaunchNeedsToBeShown(appContext) ||
-            XiaomiUtils.isXiaomiOrRedmiDevice
+                HuaweiUtils.protectedAppsNeedsToBeShown(appContext) ||
+                HuaweiUtils.appLaunchNeedsToBeShown(appContext) ||
+                XiaomiUtils.xiaomiRecentAppsNeedsToBeShown ||
+                XiaomiUtils.xiaomiLockAppsNeedsToBeShown(appContext)
     }
 }
