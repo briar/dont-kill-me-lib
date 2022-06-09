@@ -26,27 +26,29 @@ public object XiaomiUtils {
     @JvmStatic
     public fun isMiuiVersionAtLeast(major: Int, minor: Int): Boolean {
         // E.g. "V12.5.3.0.QFGMIXM"
-        var version = INCREMENTAL
+        val version = INCREMENTAL
         Log.i(TAG, "MIUI version $version")
-        version = version.replace("[^\\d.]".toRegex(), "")
-        val parts = version.split("\\.")
-        if (parts.size >= 2) {
-            try {
-                val maj = parts[0].toInt()
-                val min = parts[1].toInt()
-                Log.i(TAG, "Parsed version $maj.$min")
-                return maj > major || (maj == major && min >= minor)
-            } catch (e: NumberFormatException) {
-                // Fall through
-            }
+        return try {
+            val pair = parseMiuiVersion(version)
+            val maj = pair.first
+            val min = pair.second
+            Log.i(TAG, "Parsed version $maj.$min")
+            maj > major || (maj == major && min >= minor)
+        } catch (e: Exception) {
+            Log.w(TAG, "Could not parse MIUI version")
+            false
         }
-        Log.w(TAG, "Could not parse MIUI version")
-        return false
+    }
+
+    public fun parseMiuiVersion(version: String): Pair<Int, Int> {
+        val parts = version.replace("[^\\d.]".toRegex(), "").split(".")
+        if (parts.size < 2) throw IllegalArgumentException()
+        return Pair(parts[0].toInt(), parts[1].toInt())
     }
 
     @JvmStatic
-    public val xiaomiRecentAppsNeedsToBeShown: Boolean
-        get() = isXiaomiOrRedmiDevice && !isMiuiVersionAtLeast(12, 5)
+    public fun xiaomiRecentAppsNeedsToBeShown(): Boolean =
+        isXiaomiOrRedmiDevice && !isMiuiVersionAtLeast(12, 5)
 
     @JvmStatic
     public fun xiaomiLockAppsNeedsToBeShown(context: Context): Boolean {
@@ -57,7 +59,8 @@ public object XiaomiUtils {
     }
 
     @JvmStatic
-    public val xiaomiLockAppsIntent: Intent = Intent().apply {
-        setClassName(PACKAGE_NAME, CLASS_NAME)
-    }
+    public val xiaomiLockAppsIntent: Intent
+        get() = Intent().apply {
+            setClassName(PACKAGE_NAME, CLASS_NAME)
+        }
 }
