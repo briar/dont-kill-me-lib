@@ -44,14 +44,16 @@ public object HuaweiUtils {
     }
 
     @JvmStatic
-    public val huaweiAppListIntent: Intent = Intent().apply {
-        setClassName(PACKAGE_NAME_HUAWEI, CLASS_NAME_APP_LIST)
-    }
+    public val huaweiAppListIntent: Intent
+        get() = Intent().apply {
+            setClassName(PACKAGE_NAME_HUAWEI, CLASS_NAME_APP_LIST)
+        }
 
     @JvmStatic
-    public val huaweiPowerManagerIntent: Intent = Intent().apply {
-        setClassName(PACKAGE_NAME_HUAWEI, CLASS_NAME_POWER_MANAGER)
-    }
+    public val huaweiPowerManagerIntent: Intent
+        get() = Intent().apply {
+            setClassName(PACKAGE_NAME_HUAWEI, CLASS_NAME_POWER_MANAGER)
+        }
 
     /**
      * First tries [huaweiAppListIntent] and then falls back to [huaweiPowerManagerIntent].
@@ -65,8 +67,9 @@ public object HuaweiUtils {
     )
 
     @JvmStatic
-    public val huaweiProtectedAppsIntent: Intent = Intent().apply {
-        setClassName(PACKAGE_NAME_HUAWEI, CLASS_NAME_PROTECTED_APPS)
-    }
+    public val huaweiProtectedAppsIntent: Intent
+        get() = Intent().apply {
+            setClassName(PACKAGE_NAME_HUAWEI, CLASS_NAME_PROTECTED_APPS)
+        }
 
 }
