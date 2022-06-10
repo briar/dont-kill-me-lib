@@ -36,10 +36,15 @@ kotlin {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
 }
 
 signing {
     useGpgCmd()
+}
+
+tasks.withType(Test) {
+    useJUnitPlatform()
 }
 
 apply from: "${rootProject.rootDir}/gradle/ktlint.gradle"

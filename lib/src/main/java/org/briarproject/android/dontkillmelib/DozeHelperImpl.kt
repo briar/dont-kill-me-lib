@@ -8,7 +8,7 @@ public class DozeHelperImpl : DozeHelper {
         return DozeUtils.needsDozeWhitelisting(appContext) ||
                 HuaweiUtils.protectedAppsNeedsToBeShown(appContext) ||
                 HuaweiUtils.appLaunchNeedsToBeShown(appContext) ||
-                XiaomiUtils.xiaomiRecentAppsNeedsToBeShown ||
+                XiaomiUtils.xiaomiRecentAppsNeedsToBeShown() ||
                 XiaomiUtils.xiaomiLockAppsNeedsToBeShown(appContext)
     }
 }
