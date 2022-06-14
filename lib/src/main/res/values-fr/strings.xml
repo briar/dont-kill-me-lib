@@ -8,6 +8,4 @@
 
     <string name="dnkm_got_it">D’accord</string>
     <string name="dnkm_help">Aide</string>
-
-    <string name="dnkm_warning_dozed">%s n’a pas pu fonctionner en arrière-plan</string>
 </resources>

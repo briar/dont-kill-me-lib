@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">知道了</string>
     <string name="dnkm_help">幫助</string>
-
-    <string name="dnkm_warning_dozed">%s 無法在背景運行。</string>
 </resources>

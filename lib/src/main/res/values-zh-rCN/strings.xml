@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">知道了</string>
     <string name="dnkm_help">帮助</string>
-
-    <string name="dnkm_warning_dozed">%s 无法在后台运行</string>
 </resources>

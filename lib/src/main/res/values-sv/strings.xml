@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">Förstått</string>
     <string name="dnkm_help">Hjälp</string>
-
-    <string name="dnkm_warning_dozed">%s kunde inte köras i bakgrunden</string>
 </resources>

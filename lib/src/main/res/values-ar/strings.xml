@@ -6,6 +6,4 @@
     <string name="dnkm_huawei_app_launch_button">افتح إعدادات البطارية</string>
     <string name="dnkm_got_it">فهمت ذلك</string>
     <string name="dnkm_help">المساعدة</string>
-
-    <string name="dnkm_warning_dozed">%s لم يتمكن من الاشتغال في الخلفية</string>
 </resources>

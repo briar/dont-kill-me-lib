@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">Selvä</string>
     <string name="dnkm_help">Ohje</string>
-
-    <string name="dnkm_warning_dozed">%s ei voinut toimia taustalla</string>
 </resources>

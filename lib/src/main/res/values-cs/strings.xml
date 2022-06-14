@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">Chápu</string>
     <string name="dnkm_help">Pomoc</string>
-
-    <string name="dnkm_warning_dozed">%s nebylo možné spustit na pozadí</string>
 </resources>

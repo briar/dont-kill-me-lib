@@ -8,6 +8,4 @@
 
     <string name="dnkm_got_it">Entendido</string>
     <string name="dnkm_help">Ayuda</string>
-
-    <string name="dnkm_warning_dozed">%s no pudo ejecutarse en segundo plano</string>
 </resources>

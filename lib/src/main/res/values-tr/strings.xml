@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">Anladım</string>
     <string name="dnkm_help">Yardım</string>
-
-    <string name="dnkm_warning_dozed">%s arka planda çalışamadı</string>
 </resources>

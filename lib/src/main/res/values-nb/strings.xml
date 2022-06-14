@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">Skjønner</string>
     <string name="dnkm_help">Hjelp</string>
-
-    <string name="dnkm_warning_dozed">%s klarte ikke å kjøre i bakgrunnen</string>
 </resources>

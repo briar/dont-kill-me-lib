@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">Разбирам</string>
     <string name="dnkm_help">Помош</string>
-
-    <string name="dnkm_warning_dozed">%s беше оневозможен да работи во позадина</string>
 </resources>

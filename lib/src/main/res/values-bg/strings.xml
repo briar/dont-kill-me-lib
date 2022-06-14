@@ -8,6 +8,4 @@
 
     <string name="dnkm_got_it">Разбрах</string>
     <string name="dnkm_help">Помощ</string>
-
-    <string name="dnkm_warning_dozed">%s не може да работи на заден план</string>
 </resources>

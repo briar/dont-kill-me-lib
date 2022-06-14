@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">Jasno</string>
     <string name="dnkm_help">Pomoć</string>
-
-    <string name="dnkm_warning_dozed">%s nije mogao da se pokrene u pozadinskom modu</string>
 </resources>
