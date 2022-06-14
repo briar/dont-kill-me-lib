@@ -6,6 +6,4 @@
     <string name="dnkm_huawei_app_launch_button">Obriu la configuració de la bateria</string>
     <string name="dnkm_got_it">Entesos</string>
     <string name="dnkm_help">Ajuda</string>
-
-    <string name="dnkm_warning_dozed">%s no s\'ha pogut executar en segon pla</string>
 </resources>

@@ -28,6 +28,9 @@ android {
     kotlinOptions {
         freeCompilerArgs += '-Xexplicit-api=strict'
     }
+    lintOptions {
+        warning 'ExtraTranslation'
+    }
 }
 
 kotlin {

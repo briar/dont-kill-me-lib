@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">Begrepen</string>
     <string name="dnkm_help">Hulp</string>
-
-    <string name="dnkm_warning_dozed">%s kon niet in de achtergrond worden uitgevoerd</string>
 </resources>

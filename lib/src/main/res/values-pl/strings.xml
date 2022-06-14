@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">Rozumiem</string>
     <string name="dnkm_help">Pomoc</string>
-
-    <string name="dnkm_warning_dozed">%s nie był wstanie działać w tle</string>
 </resources>

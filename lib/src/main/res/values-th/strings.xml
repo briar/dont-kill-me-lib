@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">รับทราบ</string>
     <string name="dnkm_help">ช่วยเหลือ</string>
-
-    <string name="dnkm_warning_dozed">%s ไม่สามารถที่จะทำงานในฉากหลังได้</string>
 </resources>

@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">알겠습니다</string>
     <string name="dnkm_help">도움</string>
-
-    <string name="dnkm_warning_dozed">%s가 백그라운드에서 실행될 수 없었습니다</string>
 </resources>

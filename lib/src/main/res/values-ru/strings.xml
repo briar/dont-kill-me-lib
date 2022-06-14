@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">ОК</string>
     <string name="dnkm_help">Помощь</string>
-
-    <string name="dnkm_warning_dozed">%s не удалось запустить в фоновом режиме</string>
 </resources>

@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">متوجه شدم</string>
     <string name="dnkm_help">راهنما</string>
-
-    <string name="dnkm_warning_dozed">ناتوانی %s برای اجراء در پس زمینه</string>
 </resources>

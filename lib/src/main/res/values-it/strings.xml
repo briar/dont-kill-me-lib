@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">Ho capito</string>
     <string name="dnkm_help">Aiuto</string>
-
-    <string name="dnkm_warning_dozed">%s non ha potuto funzionare in secondo piano</string>
 </resources>

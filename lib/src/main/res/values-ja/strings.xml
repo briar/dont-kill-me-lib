@@ -6,6 +6,4 @@
     <string name="dnkm_huawei_app_launch_button">バッテリー設定を開く</string>
     <string name="dnkm_got_it">了解</string>
     <string name="dnkm_help">ヘルプ</string>
-
-    <string name="dnkm_warning_dozed">%sはバックグラウンドで実行することができませんでした</string>
 </resources>

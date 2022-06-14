@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">Verstanden</string>
     <string name="dnkm_help">Hilfe</string>
-
-    <string name="dnkm_warning_dozed">%s konnte nicht im Hintergrund ausgeführt werden</string>
 </resources>

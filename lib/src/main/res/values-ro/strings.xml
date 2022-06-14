@@ -22,6 +22,4 @@
 
     <string name="dnkm_got_it">Am înțeles</string>
     <string name="dnkm_help">Ajutor</string>
-
-    <string name="dnkm_warning_dozed">%s nu poate rula în fundal</string>
 </resources>

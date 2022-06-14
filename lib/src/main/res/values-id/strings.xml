@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">Mengerti</string>
     <string name="dnkm_help">Bantuan</string>
-
-    <string name="dnkm_warning_dozed">%s tidak bisa berfungsi di sambungan belakang</string>
 </resources>

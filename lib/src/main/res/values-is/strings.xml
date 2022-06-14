@@ -8,6 +8,4 @@
 
     <string name="dnkm_got_it">Náði því</string>
     <string name="dnkm_help">Hjálp</string>
-
-    <string name="dnkm_warning_dozed">%s gat ekki keyrt í bakgrunni</string>
 </resources>

@@ -5,6 +5,4 @@
 
     <string name="dnkm_got_it">Comprés</string>
     <string name="dnkm_help">Ajuda</string>
-
-    <string name="dnkm_warning_dozed">%s a pas pogut s’executar en rèire plan</string>
 </resources>

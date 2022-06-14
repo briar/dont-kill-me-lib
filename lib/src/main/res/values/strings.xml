@@ -28,5 +28,5 @@
     <string name="dnkm_got_it">Got it</string>
     <string name="dnkm_help">Help</string>
 
-    <string name="dnkm_warning_dozed">%s was unable to run in the background</string>
+    <string name="dnkm_warning_dozed_1">This app was unable to run in the background</string>
 </resources>

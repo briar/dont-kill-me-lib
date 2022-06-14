@@ -6,6 +6,4 @@
     <string name="dnkm_huawei_app_launch_button">Az akkumulátor beállítások megnyitása</string>
     <string name="dnkm_got_it">Megvan</string>
     <string name="dnkm_help">Súgó</string>
-
-    <string name="dnkm_warning_dozed">%s nem tud futni a háttérben</string>
 </resources>
