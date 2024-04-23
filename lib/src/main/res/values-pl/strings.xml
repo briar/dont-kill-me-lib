@@ -18,8 +18,15 @@
     <string name="dnkm_xiaomi_button">Zablokuj do ostatnich aplikacji</string>
     <string name="dnkm_xiaomi_help">Jeśli ta aplikacja nie zostanie zablokowana na liście ostatnich aplikacji, nie będzie mogła działać w tle.</string>
     <string name="dnkm_xiaomi_dialog_body_old">1. Otwórz listę ostatnich aplikacji (zwaną też przełącznikiem aplikacji)\n\n2. Przesuń palcem w dół na obrazku tej aplikacji, aby wyświetlić ikonę kłódki\n\n3. Jeśli kłódka nie jest zamknięta, naciśnij ją, aby ją zablokować.</string>
-    <string name="dnkm_xiaomi_dialog_body_new">1. Otwórz listę ostatnich aplikacji (zwaną też przełącznikiem aplikacji)\n\n2. Naciśnij i przytrzymaj obraz tej aplikacji, aż pojawi się przycisk kłódki\n\n3. Jeśli kłódka nie jest zamknięta, naciśnij ją, aby ją zablokować.</string>
+    <string name="dnkm_xiaomi_dialog_body_new">1. Otwórz listę ostatnich aplikacji (zwaną też przełącznikiem aplikacji)\n\n2. Jeśli obok nazwy tej aplikacji znajduje się mała kłódka, nie musisz nic robić\n\n3. Jeśli nie ma tam kłódki, naciśnij i przytrzymaj obraz tej aplikacji, aż pojawi się przycisk kłódki, a następnie kliknij go</string>
+
+    <string name="dnkm_xiaomi_lock_apps_text">Naciśnij poniższy przycisk, aby otworzyć ustawienia bezpieczeństwa. Naciśnij \"Zwiększ prędkość\", następnie \"Zablokuj aplikacje\" i upewnij się, że ta aplikacja jest ustawiona na \"Zablokowane\".</string>
+    <string name="dnkm_xiaomi_lock_apps_button">Otwórz ustawienia bezpieczeństwa</string>
+    <string name="dnkm_xiaomi_lock_apps_help">Jeśli ta aplikacja nie jest ustawiona na \"Zablokowane\" na ekranie \"Zablokuj aplikacje\", nie będzie mogła ona działać w tle.</string>
+    <string name="dnkm_xiaomi_lock_apps_error_toast">Nie można otworzyć ustawień bezpieczeństwa</string>
 
     <string name="dnkm_got_it">Rozumiem</string>
     <string name="dnkm_help">Pomoc</string>
+
+    <string name="dnkm_warning_dozed_1">Ta aplikacja nie mogła być uruchomiona w tle</string>
 </resources>

@@ -18,8 +18,15 @@
     <string name="dnkm_xiaomi_button">Zuletzt verwendete Apps sperren</string>
     <string name="dnkm_xiaomi_help">Wenn diese App nicht in der Liste der zuletzt verwendeten Apps gesperrt ist, kann sie nicht im Hintergrund ausgeführt werden.</string>
     <string name="dnkm_xiaomi_dialog_body_old">1. Öffne die Liste der zuletzt verwendeten Apps (auch \'App Switcher\' genannt)\n\n2. Wische auf dem Bild dieser App nach unten, um das Vorhängeschlosssymbol anzuzeigen\n\n3. Wenn das Vorhängeschloss nicht gesperrt ist, tippe darauf, um es zu sperren</string>
-    <string name="dnkm_xiaomi_dialog_body_new">1. Öffne die Liste der zuletzt verwendeten Apps (auch \'App Switcher\' genannt)\n\n2. Halte das Bild dieser App gedrückt, bis die Schaltfläche für das Vorhängeschloss angezeigt wird\n\n3. Wenn das Vorhängeschloss nicht gesperrt ist, tippe darauf, um es zu sperren</string>
+    <string name="dnkm_xiaomi_dialog_body_new">1. Öffne die Liste der zuletzt verwendeten Apps (auch \'App Switcher\' genannt)\n\n2. Wenn neben dieser App ein kleines Vorhängeschloss angezeigt wird, brauchst du nichts zu tun.\n\n3. Wenn kein Vorhängeschloss vorhanden ist, halte das Bild dieser gedrückt, bis die Schaltfläche für das Vorhängeschloss erscheint, und tippe dann darauf</string>
+
+    <string name="dnkm_xiaomi_lock_apps_text">Bitte tippe auf die Schaltfläche unten, um die Sicherheitseinstellungen zu öffnen. Tippe auf \"Geschwindigkeit erhöhen\", dann auf \"Apps sperren\" und stelle sicher, dass diese App auf \"Gesperrt\" gesetzt ist.</string>
+    <string name="dnkm_xiaomi_lock_apps_button">Sicherheitseinstellungen öffnen</string>
+    <string name="dnkm_xiaomi_lock_apps_help">Wenn diese App nicht auf \" Gesperrt\" im Bereich \"Apps sperren\" gesetzt wurde, kann sie nicht im Hintergrund ausgeführt werden.</string>
+    <string name="dnkm_xiaomi_lock_apps_error_toast">Sicherheitseinstellungen konnten nicht geöffnet werden</string>
 
     <string name="dnkm_got_it">Verstanden</string>
     <string name="dnkm_help">Hilfe</string>
+
+    <string name="dnkm_warning_dozed_1">Diese App konnte nicht im Hintergrund ausgeführt werden</string>
 </resources>

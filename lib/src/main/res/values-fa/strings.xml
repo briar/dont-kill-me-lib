@@ -18,8 +18,15 @@
     <string name="dnkm_xiaomi_button">در برنامه‌های اخیر قفل کنید</string>
     <string name="dnkm_xiaomi_help">اگر این برنامه در لیست برنامه‌های اخیر قفل نباشد، نمی‌تواند در پس‌زمینه اجرا شود.</string>
     <string name="dnkm_xiaomi_dialog_body_old">1. فهرست برنامه‌های اخیر را باز کنید (که به آن تغییردهنده برنامه نیز گفته می‌شود)\n\n2. روی تصویر این برنامه به پایین بکشید تا نماد قفل نشان داده شود\n\n3. اگر علامت قفل بسته نیست، برای قفل کردن آن ضربه بزنید</string>
-    <string name="dnkm_xiaomi_dialog_body_new">1. فهرست برنامه‌های اخیر را باز کنید (که به آن تغییردهنده برنامه نیز گفته می‌شود)\n\n2. تصویر این برنامه را فشار دهید و نگه دارید تا دکمه قفل ظاهر شود\n\n3. اگر علامت قفل بسته نیست، برای قفل کردن آن ضربه بزنید</string>
+    <string name="dnkm_xiaomi_dialog_body_new">1. فهرست برنامه‌های اخیر را باز کنید (که به آن app switcher نیز گفته می‌شود)\n\n2. اگر این برنامه تصویر کوچکی از قفل در کنار نام خود دارد، دیگر نیازی به انجام کاری ندارید\n\n3. اگر قفلی وجود ندارد، تصویر این برنامه را فشار داده و نگه دارید تا دکمه قفل ظاهر شود، سپس روی آن ضربه بزنید.</string>
+
+    <string name="dnkm_xiaomi_lock_apps_text">لطفا روی دکمه زیر ضربه بزنید تا تنظیمات امنیتی باز شود. روی \"Boost speed\" ضربه بزنید، سپس روی \"Lock apps\" ضربه بزنید و مطمئن شوید که این برنامه روی \"Locked\" تنظیم شده است.</string>
+    <string name="dnkm_xiaomi_lock_apps_button">باز کردن تنظیمات امنیتی</string>
+    <string name="dnkm_xiaomi_lock_apps_help">اگر این برنامه روی \"Locked\" در صفحه \"Lock apps\" تنظیم نشده باشد، نمی‌تواند در پس‌زمینه اجرا شود.</string>
+    <string name="dnkm_xiaomi_lock_apps_error_toast">تنظیمات امنیتی باز نشد</string>
 
     <string name="dnkm_got_it">متوجه شدم</string>
     <string name="dnkm_help">راهنما</string>
+
+    <string name="dnkm_warning_dozed_1">این برنامه قادر به اجرا در پس‌زمینه نبود</string>
 </resources>

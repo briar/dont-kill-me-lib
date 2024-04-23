@@ -18,8 +18,15 @@
     <string name="dnkm_xiaomi_button">Uzamknúť do nedávnych aplikácií</string>
     <string name="dnkm_xiaomi_help">Ak táto aplikácia nie je uzamknutá v zozname posledných aplikácií, nebude môcť byť spustená na pozadí.</string>
     <string name="dnkm_xiaomi_dialog_body_old">1. Otvorte zoznam posledných aplikácií (nazývaný aj prepínač aplikácií)\n\n2. Potiahnite prstom nadol na obrázok tejto aplikácie, aby sa zobrazila ikona visiacej zámky\n\n3. Ak visiaca zámka nie je zamknutá, ťuknutím na ňu ju zamknite</string>
-    <string name="dnkm_xiaomi_dialog_body_new">1. Otvorte zoznam posledných aplikácií (nazývaný aj prepínač aplikácií)\n\n2. Stlačte a podržte obrázok tejto aplikácie, kým sa nezobrazí tlačidlo visiacej zámky\n\n3. Ak visiaca zámka nie je zamknutá, ťuknutím na ňu ju zamknite</string>
+    <string name="dnkm_xiaomi_dialog_body_new">1. Otvorte zoznam posledných aplikácií (nazývaný aj prepínač aplikácií)\n\n2. Ak má táto aplikácia vedľa svojho názvu malý obrázok visiaceho zámku, nemusíte robiť nič\n\n3. Ak tam visiaci zámok nie je, stlačte a podržte obrázok tejto aplikácie, kým sa nezobrazí tlačidlo visiaceho zámku, a potom naň ťuknite</string>
+
+    <string name="dnkm_xiaomi_lock_apps_text">Ťuknutím na tlačidlo nižšie otvorte nastavenia zabezpečenia. Klepnite na položku \"Zvýšenie rýchlosti\", potom klepnite na položku \"Uzamknúť aplikácie\" a uistite sa, že táto aplikácia je nastavená na možnosť \"Uzamknuté\".</string>
+    <string name="dnkm_xiaomi_lock_apps_button">Otvoriť nastavenia zabezpečenia</string>
+    <string name="dnkm_xiaomi_lock_apps_help">Ak táto aplikácia nie je nastavená na možnosť \"Uzamknuté\" na obrazovke \"Uzamknuté aplikácie\", nebude môcť byť spustená na pozadí.</string>
+    <string name="dnkm_xiaomi_lock_apps_error_toast">Nepodarilo sa otvoriť nastavenia zabezpečenia</string>
 
     <string name="dnkm_got_it">Rozumiem</string>
     <string name="dnkm_help">Pomoc</string>
+
+    <string name="dnkm_warning_dozed_1">Táto aplikácia nemohla byť spustená na pozadí</string>
 </resources>
